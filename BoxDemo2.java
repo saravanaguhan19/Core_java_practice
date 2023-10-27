@@ -18,11 +18,12 @@ public class BoxDemo2 {
 
         val = mybox1.width * mybox1.height * mybox1.depth;
         System.out.println("volume of first box " + val);
+        mybox1.volume();
 
         // compute value of second box
         val = mybox2.width * mybox2.height * mybox2.depth;
         System.out.println("volume of second  box " + val);
-
+        mybox2.volume();
     }
 
 }
